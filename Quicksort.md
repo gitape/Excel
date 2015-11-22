@@ -3,6 +3,7 @@ http://en.allexperts.com/q/Visual-Basic-1048/string-manipulation.htm
 
 Call it simply by passing an array of values (string or numeric; it doesn't matter) with the Lower array boundar (usually 0) and the upper array boundary `(i.e. UBound(myArray)`. Example: `Call QuickSort(myArray, 0, UBound(myArray))`
 
+Call with `inLow = 1` if `Option Base 1` is on.
 
 ```vba
 Sub QuickSort(vArray As Variant, inLow As Long, inHi As Long)

@@ -1,5 +1,5 @@
 ```vba
-Function Week_Day(i As Integer) As String
+Function WeekDay(i As Integer) As String
       Dim s As String
       Select Case i
           Case 1: s = "Monday"
@@ -11,6 +11,6 @@ Function Week_Day(i As Integer) As String
           Case Else
           s = "Sunday"
       End Select
-      Week_Day = s
+      WeekDay = s
 End Function
 ```

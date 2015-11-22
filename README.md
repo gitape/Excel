@@ -1,2 +1,2 @@
 # Excel
-This repository contains VBA macro developed in Excel. 
+This repository contains VBA macros developed for Excel. 

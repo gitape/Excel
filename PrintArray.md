@@ -1,5 +1,5 @@
 ## Print an Array
-
+Prints a one-dimensional array starting at `rDestination`.
 ```vba
 Sub PrintArray(vArray As Variant, rDestination As Range)
     Dim i As Integer

@@ -1,0 +1,14 @@
+From http://www.mrexcel.com/forum/excel-questions/506497-unable-set-visible-property-worksheet-class.html
+```vba
+Sub UnHideSheets()
+    Dim ws As Worksheet
+    
+    ActiveWorkbook.Unprotect "aaa"
+    
+    For Each ws In ActiveWorkbook.Worksheets
+    
+        ws.Visible = xlSheetVisible
+    Next ws
+    
+End Sub
+```

@@ -17,8 +17,7 @@ Function lint(x As Range, y As Range, z As Range) As Double
         Do While Int(CDbl(x(i + 1).Value)) < Int(CDbl(z.Value))
             i = i + 1
         Loop
-        
-        
+       
         low_index = i
         high_index = i + 1
         
